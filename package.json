@@ -1,0 +1,42 @@
+{
+  "name": "@promptlounge/shopify-gtin-checker",
+  "version": "0.1.0",
+  "description": "Check Shopify product exports for invalid, missing, and duplicate barcodes.",
+  "type": "module",
+  "bin": {
+    "shopify-gtin-checker": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "examples/n8n.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promptlounge/shopify-gtin-checker.git"
+  },
+  "keywords": [
+    "shopify",
+    "gtin",
+    "ean",
+    "upc",
+    "barcode",
+    "eu product identifiers",
+    "ns-pid",
+    "csv"
+  ],
+  "license": "MIT",
+  "author": "Prompt Lounge",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "csv-parse": "^6.0.0"
+  }
+}
