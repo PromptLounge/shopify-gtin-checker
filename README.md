@@ -43,8 +43,8 @@ The checks in `src/gtin.js`, `src/barcodes.js`, and `src/check.js` use no extern
 
 ## Learn more
 
-- **Reading EU product identifiers in a Shopify export**, the full walkthrough for store owners (link pending).
-- **How the GTIN check digit works**, the developer write-up on dev.to (link pending).
+- The full walkthrough for store owners. [Reading EU product identifiers in a Shopify export](https://promptlounge.tech/guides/shopify-eu-product-identifiers-export-check)
+- The developer write-up on dev.to. [How the GTIN check digit works](https://dev.to/promptlounge/validating-shopify-barcodes-for-the-eu-product-identifier-rules-3mp7)
 - What the EU requirement asks of Shopify stores. [EU Product Identifiers on Shopify](https://promptlounge.tech/guides/shopify-eu-product-identifiers)
 
 Built by [Prompt Lounge](https://promptlounge.tech), automations and open-source tools for e-commerce store operations.
